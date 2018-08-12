@@ -1,0 +1,16 @@
+<style>
+	#banner {
+	  background-image:url('<*If[StringStartsQ[#BannerImage, "http"], #BannerImage, URLBuild@{#SiteURL, #BannerImage}]*>');
+		}
+</style>
+
+<div id="banner">
+	<div class="container<wolfram:if test='TrueQ[#ContentFluid]'>-fluid</wolfram:if>">
+		<wolfram:if test='StringQ@#BannerSubtitle'>
+			<div class="copy">
+			<!-- <h1><*$$templateLib["getSiteName"][#]*></h1> -->
+				<p class="intro">`BannerSubtitle`</p>
+			</div>
+		</wolfram:if>
+	</div>
+</div>
