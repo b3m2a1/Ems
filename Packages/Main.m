@@ -25,7 +25,10 @@ Clear[Ems];
 
 
 
-PackageLoadPacletDependency["BTools`"]
+PackageLoadPacletDependency["BTools`", 
+  "Update"->True,
+  "Site"->"http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer"
+  ]
 
 
 PackageExtendContextPath[
@@ -243,7 +246,10 @@ Ems["SetOptions", a___]:=
 
 Ems["New", a___]:=
   With[{r=NewSite[a]},
-    r/;Head[r]=!=NewSite
+    (
+      UpdateAutocompletions[];
+      r
+      )/;Head[r]=!=NewSite
     ];
 
 
@@ -338,20 +344,48 @@ Ems["BuildErrors"]:=
   $BuildErrors
 
 
+(* ::Subsubsection::Closed:: *)
+(*Git stuff*)
+
+
+
+(* ::Subsubsubsection::Closed:: *)
+(*CreateSiteRepo*)
+
+
+
+Ems["CreateSiteRepo", site_String, 
+  name:_String|Automatic:Automatic, ops:OptionsPattern[]]:=
+  With[{s=CreateSiteRepo[site, name, ops]},
+    s/;Head[s]=!=CreateSiteRepo
+    ]
+
+
+(* ::Subsubsubsection::Closed:: *)
+(*PushSiteRepo*)
+
+
+
+Ems["PushSiteRepo", site_String, ops:OptionsPattern[]]:=
+  With[{s=PackageExceptionBlock["GitHub"]@PushSiteRepo[site, ops]},
+    s/;Head[s]=!=PushSiteRepo
+    ]
+
+
 (* ::Subsection:: *)
 (*Clean Up*)
 
 
 
 (* ::Subsubsection::Closed:: *)
-(*Autocomplete*)
+(*Autocompletions*)
 
 
 
 PackageAddAutocompletions[
   Ems,
   {
-    $EmsCommands
+    Sort@DownValues[Ems][[All, 1, 1, 1]]
     }
   ]
 

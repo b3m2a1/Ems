@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     88837,       1813]
-NotebookOptionsPosition[     87535,       1778]
-NotebookOutlinePosition[     88823,       1813]
-CellTagsIndexPosition[     88780,       1810]
+NotebookDataLength[     93983,       1903]
+NotebookOptionsPosition[     89397,       1816]
+NotebookOutlinePosition[     93969,       1903]
+CellTagsIndexPosition[     93926,       1900]
 WindowTitle->Ems Assistant
 WindowFrame->Palette*)
 
@@ -177,7 +177,7 @@ s2fPCGI6qWcgQT3DYFVPSnlFoCxEKRMB+xLGWw==
                     EmsAssistant`Private`ListPosts[]; 
                     EmsAssistant`Private`ListPages[]; Null)& ], {"webpages"}, 
                    "/Users/Mark/Library/Mathematica/ApplicationData/WebSites/\
-blog", 
+scroll", 
                    Button[
                    "", Null, Appearance -> {"Default" -> Image[CompressedData["
 1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIz
@@ -445,7 +445,7 @@ mEXTyg==
                   FrontEnd`CurrentValue[
                    FrontEnd`EvaluationNotebook[], {
                    TaggingRules, "UUIDButtons", "Active", 
-                    "Button-adff04cc-a8f6-40e4-bc98-4e24dba36f94"}, False], 
+                    "Button-4d1fdc4f-10fd-4884-aa97-b9d07c8b799f"}, False], 
                   "Pressed", Automatic, Automatic]]},
               
               ButtonFunction:>(
@@ -453,7 +453,7 @@ mEXTyg==
                  Internal`WithLocalSettings[CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-adff04cc-a8f6-40e4-bc98-4e24dba36f94"}] = True, 
+                    "Button-4d1fdc4f-10fd-4884-aa97-b9d07c8b799f"}] = True, 
                    Block[{$ContextPath = {"System`"}}, 
                     Needs[
                     StringJoin[EmsAssistant`Private`$AppName, "`"]]]; 
@@ -464,7 +464,7 @@ mEXTyg==
                    CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-adff04cc-a8f6-40e4-bc98-4e24dba36f94"}] = False]; 
+                    "Button-4d1fdc4f-10fd-4884-aa97-b9d07c8b799f"}] = False]; 
                  Null]; Null),
               Evaluator->Automatic,
               FrameMargins->{{5, 5}, {2, 0}},
@@ -482,7 +482,7 @@ mEXTyg==
                     Automatic -> True]], CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-adff04cc-a8f6-40e4-bc98-4e24dba36f94"}] = True], 
+                    "Button-4d1fdc4f-10fd-4884-aa97-b9d07c8b799f"}] = True], 
                  FrontEndExecute[
                   FrontEnd`NotebookResumeScreenUpdates[
                    FrontEnd`EvaluationNotebook[]]]], PassEventsDown -> True, 
@@ -526,7 +526,7 @@ mEXTyg==
                   FrontEnd`CurrentValue[
                    FrontEnd`EvaluationNotebook[], {
                    TaggingRules, "UUIDButtons", "Active", 
-                    "Button-46c0f649-4f0f-4abd-96da-0424b41db9af"}, False], 
+                    "Button-a8a5afaa-38fe-4ea0-980e-472bda89b559"}, False], 
                   "Pressed", Automatic, Automatic]]},
               
               ButtonFunction:>(
@@ -534,17 +534,17 @@ mEXTyg==
                  Internal`WithLocalSettings[CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-46c0f649-4f0f-4abd-96da-0424b41db9af"}] = True, 
+                    "Button-a8a5afaa-38fe-4ea0-980e-472bda89b559"}] = True, 
                    Block[{$ContextPath = {"System`"}}, 
                     Needs[
                     StringJoin[EmsAssistant`Private`$AppName, "`"]]]; 
                    SystemOpen[
-                    Ems`Ems[
+                    Symbol["Ems`Ems"][
                     "FindTheme", EmsAssistant`Private`$CurrentProject]], 
                    CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-46c0f649-4f0f-4abd-96da-0424b41db9af"}] = False]; 
+                    "Button-a8a5afaa-38fe-4ea0-980e-472bda89b559"}] = False]; 
                  Null]; Null),
               Evaluator->Automatic,
               FrameMargins->{{5, 5}, {2, 0}},
@@ -562,7 +562,7 @@ mEXTyg==
                     Automatic -> True]], CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-46c0f649-4f0f-4abd-96da-0424b41db9af"}] = True], 
+                    "Button-a8a5afaa-38fe-4ea0-980e-472bda89b559"}] = True], 
                  FrontEndExecute[
                   FrontEnd`NotebookResumeScreenUpdates[
                    FrontEnd`EvaluationNotebook[]]]], PassEventsDown -> True, 
@@ -570,7 +570,7 @@ mEXTyg==
            {
             TagBox[
              ButtonBox[
-              StyleBox["\<\"Open BuildInfo\"\>",
+              StyleBox["\<\"Open Build Info\"\>",
                StripOnInput->False,
                LineColor->GrayLevel[0.2],
                FrontFaceColor->GrayLevel[0.2],
@@ -606,7 +606,7 @@ mEXTyg==
                   FrontEnd`CurrentValue[
                    FrontEnd`EvaluationNotebook[], {
                    TaggingRules, "UUIDButtons", "Active", 
-                    "Button-09c3143e-4f49-423c-b452-0068ef591617"}, False], 
+                    "Button-137f01b0-282a-47e7-ac94-676177254af9"}, False], 
                   "Pressed", Automatic, Automatic]]},
               
               ButtonFunction:>(
@@ -614,18 +614,26 @@ mEXTyg==
                  Internal`WithLocalSettings[CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-09c3143e-4f49-423c-b452-0068ef591617"}] = True, 
+                    "Button-137f01b0-282a-47e7-ac94-676177254af9"}] = True, 
                    Block[{$ContextPath = {"System`"}}, 
                     Needs[
                     StringJoin[EmsAssistant`Private`$AppName, "`"]]]; 
                    SystemOpen[
+                    If[
+                    FileExistsQ[
                     
                     FileNameJoin[{
                     EmsAssistant`Private`$CurrentProject, "BuildInfo.wl"}]], 
+                    
+                    FileNameJoin[{
+                    EmsAssistant`Private`$CurrentProject, "BuildInfo.wl"}], 
+                    
+                    FileNameJoin[{
+                    EmsAssistant`Private`$CurrentProject, "BuildInfo.m"}]]], 
                    CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-09c3143e-4f49-423c-b452-0068ef591617"}] = False]; 
+                    "Button-137f01b0-282a-47e7-ac94-676177254af9"}] = False]; 
                  Null]; Null),
               Evaluator->Automatic,
               FrameMargins->{{5, 5}, {2, 0}},
@@ -643,7 +651,7 @@ mEXTyg==
                     Automatic -> True]], CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-09c3143e-4f49-423c-b452-0068ef591617"}] = True], 
+                    "Button-137f01b0-282a-47e7-ac94-676177254af9"}] = True], 
                  FrontEndExecute[
                   FrontEnd`NotebookResumeScreenUpdates[
                    FrontEnd`EvaluationNotebook[]]]], PassEventsDown -> True, 
@@ -651,7 +659,7 @@ mEXTyg==
            {
             TagBox[
              ButtonBox[
-              StyleBox["\<\"Open DeployInfo\"\>",
+              StyleBox["\<\"Open Deploy Info\"\>",
                StripOnInput->False,
                LineColor->GrayLevel[0.2],
                FrontFaceColor->GrayLevel[0.2],
@@ -687,7 +695,7 @@ mEXTyg==
                   FrontEnd`CurrentValue[
                    FrontEnd`EvaluationNotebook[], {
                    TaggingRules, "UUIDButtons", "Active", 
-                    "Button-2d08af25-fbe9-41f1-95be-235bc5f3a68a"}, False], 
+                    "Button-f9279453-d6e2-4b9a-aa83-18dd2ec53f50"}, False], 
                   "Pressed", Automatic, Automatic]]},
               
               ButtonFunction:>(
@@ -695,18 +703,28 @@ mEXTyg==
                  Internal`WithLocalSettings[CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-2d08af25-fbe9-41f1-95be-235bc5f3a68a"}] = True, 
+                    "Button-f9279453-d6e2-4b9a-aa83-18dd2ec53f50"}] = True, 
                    Block[{$ContextPath = {"System`"}}, 
                     Needs[
                     StringJoin[EmsAssistant`Private`$AppName, "`"]]]; 
                    SystemOpen[
+                    If[
+                    FileExistsQ[
                     
                     FileNameJoin[{
                     EmsAssistant`Private`$CurrentProject, 
-                    "DeploymentInfo.wl"}]], CurrentValue[
+                    "DeploymentInfo.wl"}]], 
+                    
+                    FileNameJoin[{
+                    EmsAssistant`Private`$CurrentProject, 
+                    "DeploymentInfo.wl"}], 
+                    
+                    FileNameJoin[{
+                    EmsAssistant`Private`$CurrentProject, 
+                    "DeploymentInfo.m"}]]], CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-2d08af25-fbe9-41f1-95be-235bc5f3a68a"}] = False]; 
+                    "Button-f9279453-d6e2-4b9a-aa83-18dd2ec53f50"}] = False]; 
                  Null]; Null),
               Evaluator->Automatic,
               FrameMargins->{{5, 5}, {2, 0}},
@@ -724,7 +742,7 @@ mEXTyg==
                     Automatic -> True]], CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-2d08af25-fbe9-41f1-95be-235bc5f3a68a"}] = True], 
+                    "Button-f9279453-d6e2-4b9a-aa83-18dd2ec53f50"}] = True], 
                  FrontEndExecute[
                   FrontEnd`NotebookResumeScreenUpdates[
                    FrontEnd`EvaluationNotebook[]]]], PassEventsDown -> True, 
@@ -779,7 +797,7 @@ mEXTyg==
                   FrontEnd`CurrentValue[
                    FrontEnd`EvaluationNotebook[], {
                    TaggingRules, "UUIDButtons", "Active", 
-                    "Button-17136b43-0e5b-4144-a2c0-7c31701ce059"}, False], 
+                    "Button-af4fa3a3-c9a7-467e-84e2-b15ca07eed44"}, False], 
                   "Pressed", Automatic, Automatic]]},
               
               ButtonFunction:>(
@@ -787,15 +805,16 @@ mEXTyg==
                  Internal`WithLocalSettings[CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-17136b43-0e5b-4144-a2c0-7c31701ce059"}] = True, 
+                    "Button-af4fa3a3-c9a7-467e-84e2-b15ca07eed44"}] = True, 
                    Block[{$ContextPath = {"System`"}}, 
                     Needs[
                     StringJoin[EmsAssistant`Private`$AppName, "`"]]]; (
-                    Ems`Ems["NewPost", EmsAssistant`Private`$CurrentProject]; 
+                    Symbol["Ems`Ems"][
+                    "NewPost", EmsAssistant`Private`$CurrentProject]; 
                     EmsAssistant`Private`ListPosts[]), CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-17136b43-0e5b-4144-a2c0-7c31701ce059"}] = False]; 
+                    "Button-af4fa3a3-c9a7-467e-84e2-b15ca07eed44"}] = False]; 
                  Null]; Null),
               Evaluator->Automatic,
               FrameMargins->{{5, 5}, {2, 0}},
@@ -813,7 +832,7 @@ mEXTyg==
                     Automatic -> True]], CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-17136b43-0e5b-4144-a2c0-7c31701ce059"}] = True], 
+                    "Button-af4fa3a3-c9a7-467e-84e2-b15ca07eed44"}] = True], 
                  FrontEndExecute[
                   FrontEnd`NotebookResumeScreenUpdates[
                    FrontEnd`EvaluationNotebook[]]]], PassEventsDown -> True, 
@@ -857,7 +876,7 @@ mEXTyg==
                   FrontEnd`CurrentValue[
                    FrontEnd`EvaluationNotebook[], {
                    TaggingRules, "UUIDButtons", "Active", 
-                    "Button-6ca2a422-61ac-4322-9326-6746a063d4f2"}, False], 
+                    "Button-bb33c220-349d-420d-9b5e-91038e21c81b"}, False], 
                   "Pressed", Automatic, Automatic]]},
               
               ButtonFunction:>(
@@ -865,15 +884,16 @@ mEXTyg==
                  Internal`WithLocalSettings[CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-6ca2a422-61ac-4322-9326-6746a063d4f2"}] = True, 
+                    "Button-bb33c220-349d-420d-9b5e-91038e21c81b"}] = True, 
                    Block[{$ContextPath = {"System`"}}, 
                     Needs[
                     StringJoin[EmsAssistant`Private`$AppName, "`"]]]; (
-                    Ems`Ems["NewPage", EmsAssistant`Private`$CurrentProject]; 
+                    Symbol["Ems`Ems"][
+                    "NewPage", EmsAssistant`Private`$CurrentProject]; 
                     EmsAssistant`Private`ListPages[]), CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-6ca2a422-61ac-4322-9326-6746a063d4f2"}] = False]; 
+                    "Button-bb33c220-349d-420d-9b5e-91038e21c81b"}] = False]; 
                  Null]; Null),
               Evaluator->Automatic,
               FrameMargins->{{5, 5}, {2, 0}},
@@ -891,7 +911,7 @@ mEXTyg==
                     Automatic -> True]], CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-6ca2a422-61ac-4322-9326-6746a063d4f2"}] = True], 
+                    "Button-bb33c220-349d-420d-9b5e-91038e21c81b"}] = True], 
                  FrontEndExecute[
                   FrontEnd`NotebookResumeScreenUpdates[
                    FrontEnd`EvaluationNotebook[]]]], PassEventsDown -> True, 
@@ -935,25 +955,24 @@ mEXTyg==
                   FrontEnd`CurrentValue[
                    FrontEnd`EvaluationNotebook[], {
                    TaggingRules, "UUIDButtons", "Active", 
-                    "Button-d2315118-7c1d-4a4c-8439-95221c3a5f17"}, False], 
+                    "Button-91d69bb1-d253-450d-bb76-922c2187f163"}, False], 
                   "Pressed", Automatic, Automatic]]},
-              
               ButtonFunction:>(
                With[{BTools`Formatting`Private`nb$ = EvaluationNotebook[]}, 
                  Internal`WithLocalSettings[CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-d2315118-7c1d-4a4c-8439-95221c3a5f17"}] = True, 
+                    "Button-91d69bb1-d253-450d-bb76-922c2187f163"}] = True, 
                    Block[{$ContextPath = {"System`"}}, 
                     Needs[
                     StringJoin[EmsAssistant`Private`$AppName, "`"]]]; (
-                    Ems`Ems[
+                    Symbol["Ems`Ems"][
                     "NewTableOfContents", 
                     EmsAssistant`Private`$CurrentProject]; 
                     EmsAssistant`Private`ListPages[]), CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-d2315118-7c1d-4a4c-8439-95221c3a5f17"}] = False]; 
+                    "Button-91d69bb1-d253-450d-bb76-922c2187f163"}] = False]; 
                  Null]; Null),
               Evaluator->Automatic,
               FrameMargins->{{5, 5}, {2, 0}},
@@ -971,7 +990,7 @@ mEXTyg==
                     Automatic -> True]], CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-d2315118-7c1d-4a4c-8439-95221c3a5f17"}] = True], 
+                    "Button-91d69bb1-d253-450d-bb76-922c2187f163"}] = True], 
                  FrontEndExecute[
                   FrontEnd`NotebookResumeScreenUpdates[
                    FrontEnd`EvaluationNotebook[]]]], PassEventsDown -> True, 
@@ -1026,7 +1045,7 @@ mEXTyg==
                   FrontEnd`CurrentValue[
                    FrontEnd`EvaluationNotebook[], {
                    TaggingRules, "UUIDButtons", "Active", 
-                    "Button-4b89f3ae-a45b-497d-bbf0-67b1b5532f66"}, False], 
+                    "Button-c6e02e7f-b370-4d21-af6a-83c845c14e76"}, False], 
                   "Pressed", Automatic, Automatic]]},
               
               ButtonFunction:>(
@@ -1034,11 +1053,11 @@ mEXTyg==
                  Internal`WithLocalSettings[CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-4b89f3ae-a45b-497d-bbf0-67b1b5532f66"}] = True, 
+                    "Button-c6e02e7f-b370-4d21-af6a-83c845c14e76"}] = True, 
                    Block[{$ContextPath = {"System`"}}, 
                     Needs[
                     StringJoin[EmsAssistant`Private`$AppName, "`"]]]; (
-                    Ems`Ems[
+                    Symbol["Ems`Ems"][
                     "Build", EmsAssistant`Private`$CurrentProject, Monitor -> 
                     TrueQ[
                     Not[EmsAssistant`Private`$buildSilentFlag]], 
@@ -1052,16 +1071,19 @@ mEXTyg==
                     EmsAssistant`Private`$copyThemeFlag =!= False, 
                     "GenerateSearchPage" -> 
                     EmsAssistant`Private`$generateSearchFlag =!= False, 
+                    "UseCache" -> 
+                    EmsAssistant`Private`$useCacheFlag =!= False, 
                     If[
                     TrueQ[EmsAssistant`Private`$rebuildAllFlag], "LastBuild" -> 
                     None, 
                     Apply[Sequence, {}]]]; 
                     If[EmsAssistant`Private`$openOnGenerateFlag =!= False, 
-                    Ems`Ems["Open", EmsAssistant`Private`$CurrentProject]]), 
+                    Symbol["Ems`Ems"][
+                    "Open", EmsAssistant`Private`$CurrentProject]]), 
                    CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-4b89f3ae-a45b-497d-bbf0-67b1b5532f66"}] = False]; 
+                    "Button-c6e02e7f-b370-4d21-af6a-83c845c14e76"}] = False]; 
                  Null]; Null),
               Evaluator->Automatic,
               FrameMargins->{{5, 5}, {2, 0}},
@@ -1079,7 +1101,7 @@ mEXTyg==
                     Automatic -> True]], CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-4b89f3ae-a45b-497d-bbf0-67b1b5532f66"}] = True], 
+                    "Button-c6e02e7f-b370-4d21-af6a-83c845c14e76"}] = True], 
                  FrontEndExecute[
                   FrontEnd`NotebookResumeScreenUpdates[
                    FrontEnd`EvaluationNotebook[]]]], PassEventsDown -> True, 
@@ -1123,7 +1145,7 @@ mEXTyg==
                   FrontEnd`CurrentValue[
                    FrontEnd`EvaluationNotebook[], {
                    TaggingRules, "UUIDButtons", "Active", 
-                    "Button-bac33cd5-1fe3-4e87-a564-cd0efcb6fe8d"}, False], 
+                    "Button-9b31a36a-1cb0-4c13-86dc-2937d67c13d3"}, False], 
                   "Pressed", Automatic, Automatic]]},
               
               ButtonFunction:>(
@@ -1131,7 +1153,7 @@ mEXTyg==
                  Internal`WithLocalSettings[CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-bac33cd5-1fe3-4e87-a564-cd0efcb6fe8d"}] = True, 
+                    "Button-9b31a36a-1cb0-4c13-86dc-2937d67c13d3"}] = True, 
                    Block[{$ContextPath = {"System`"}}, 
                     Needs[
                     StringJoin[EmsAssistant`Private`$AppName, "`"]]]; 
@@ -1143,7 +1165,7 @@ mEXTyg==
                     "_"}]], CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-bac33cd5-1fe3-4e87-a564-cd0efcb6fe8d"}] = False]; 
+                    "Button-9b31a36a-1cb0-4c13-86dc-2937d67c13d3"}] = False]; 
                  Null]; Null),
               Evaluator->Automatic,
               FrameMargins->{{5, 5}, {2, 0}},
@@ -1161,7 +1183,7 @@ mEXTyg==
                     Automatic -> True]], CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-bac33cd5-1fe3-4e87-a564-cd0efcb6fe8d"}] = True], 
+                    "Button-9b31a36a-1cb0-4c13-86dc-2937d67c13d3"}] = True], 
                  FrontEndExecute[
                   FrontEnd`NotebookResumeScreenUpdates[
                    FrontEnd`EvaluationNotebook[]]]], PassEventsDown -> True, 
@@ -1228,7 +1250,7 @@ mEXTyg==
                   StyleBox[
                   "\"Aggregations\"", 12, "Gray", StripOnInput -> False]},
                  "RowDefault"]},
-               {"", 
+               {
                 TemplateBox[{CheckboxBox[
                    Dynamic[EmsAssistant`Private`$copyThemeFlag =!= False, If[
                     Not[
@@ -1236,6 +1258,14 @@ mEXTyg==
                     EmsAssistant`Private`$copyThemeFlag = False, 
                     EmsAssistant`Private`$copyThemeFlag = #]& ]],StyleBox[
                   "\"Copy Theme\"", 12, "Gray", StripOnInput -> False]},
+                 "RowDefault"], 
+                TemplateBox[{CheckboxBox[
+                   Dynamic[EmsAssistant`Private`$useCacheFlag =!= False, If[
+                    Not[
+                    BooleanQ[EmsAssistant`Private`$useCacheFlag]], 
+                    EmsAssistant`Private`$useCacheFlag = False, 
+                    EmsAssistant`Private`$useCacheFlag = #]& ]],StyleBox[
+                  "\"Use Cache\"", 12, "Gray", StripOnInput -> False]},
                  "RowDefault"]},
                {
                 TemplateBox[{CheckboxBox[
@@ -1313,7 +1343,7 @@ mEXTyg==
                   FrontEnd`CurrentValue[
                    FrontEnd`EvaluationNotebook[], {
                    TaggingRules, "UUIDButtons", "Active", 
-                    "Button-c1899cc3-7043-4ecd-818e-5cc5505fb1e3"}, False], 
+                    "Button-024b0707-d0be-4035-92e4-8d9b5a0a3b28"}, False], 
                   "Pressed", Automatic, Automatic]]},
               
               ButtonFunction:>(
@@ -1321,7 +1351,7 @@ mEXTyg==
                  Internal`WithLocalSettings[CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-c1899cc3-7043-4ecd-818e-5cc5505fb1e3"}] = True, 
+                    "Button-024b0707-d0be-4035-92e4-8d9b5a0a3b28"}] = True, 
                    Block[{$ContextPath = {"System`"}}, 
                     Needs[
                     StringJoin[EmsAssistant`Private`$AppName, "`"]]]; (If[
@@ -1334,7 +1364,7 @@ mEXTyg==
                     Map[First, #], Length[
                     URLParse[#, "Path"]]& ], 
                     StringEndsQ["/index.html"]]]]& )[
-                    Ems`Ems[
+                    Symbol["Ems`Ems"][
                     "Deploy", EmsAssistant`Private`$CurrentProject, Monitor -> 
                     TrueQ[
                     Not[EmsAssistant`Private`$buildSilentFlag]], 
@@ -1344,7 +1374,7 @@ mEXTyg==
                     Apply[Sequence, {}]]]], CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-c1899cc3-7043-4ecd-818e-5cc5505fb1e3"}] = False]; 
+                    "Button-024b0707-d0be-4035-92e4-8d9b5a0a3b28"}] = False]; 
                  Null]; Null),
               Evaluator->Automatic,
               FrameMargins->{{5, 5}, {2, 0}},
@@ -1362,7 +1392,7 @@ mEXTyg==
                     Automatic -> True]], CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-c1899cc3-7043-4ecd-818e-5cc5505fb1e3"}] = True], 
+                    "Button-024b0707-d0be-4035-92e4-8d9b5a0a3b28"}] = True], 
                  FrontEndExecute[
                   FrontEnd`NotebookResumeScreenUpdates[
                    FrontEnd`EvaluationNotebook[]]]], PassEventsDown -> True, 
@@ -1406,7 +1436,7 @@ mEXTyg==
                   FrontEnd`CurrentValue[
                    FrontEnd`EvaluationNotebook[], {
                    TaggingRules, "UUIDButtons", "Active", 
-                    "Button-3ecf47ac-d4eb-4385-acfd-e9bf3cb5b47f"}, False], 
+                    "Button-2acf0db0-35a6-4d51-8561-a2a48cee944d"}, False], 
                   "Pressed", Automatic, Automatic]]},
               
               ButtonFunction:>(
@@ -1414,7 +1444,7 @@ mEXTyg==
                  Internal`WithLocalSettings[CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-3ecf47ac-d4eb-4385-acfd-e9bf3cb5b47f"}] = True, 
+                    "Button-2acf0db0-35a6-4d51-8561-a2a48cee944d"}] = True, 
                    Block[{$ContextPath = {"System`"}}, 
                     Needs[
                     StringJoin[EmsAssistant`Private`$AppName, "`"]]]; 
@@ -1425,7 +1455,7 @@ mEXTyg==
                    CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-3ecf47ac-d4eb-4385-acfd-e9bf3cb5b47f"}] = False]; 
+                    "Button-2acf0db0-35a6-4d51-8561-a2a48cee944d"}] = False]; 
                  Null]; Null),
               Evaluator->Automatic,
               FrameMargins->{{5, 5}, {2, 0}},
@@ -1443,7 +1473,7 @@ mEXTyg==
                     Automatic -> True]], CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-3ecf47ac-d4eb-4385-acfd-e9bf3cb5b47f"}] = True], 
+                    "Button-2acf0db0-35a6-4d51-8561-a2a48cee944d"}] = True], 
                  FrontEndExecute[
                   FrontEnd`NotebookResumeScreenUpdates[
                    FrontEnd`EvaluationNotebook[]]]], PassEventsDown -> True, 
@@ -1517,7 +1547,7 @@ mEXTyg==
                   FrontEnd`CurrentValue[
                    FrontEnd`EvaluationNotebook[], {
                    TaggingRules, "UUIDButtons", "Active", 
-                    "Button-035b46c9-e31c-4c3f-8e18-1b0d87f07f7c"}, False], 
+                    "Button-6ef6d9e0-7345-47f0-b4b3-a872d219d04d"}, False], 
                   "Pressed", Automatic, Automatic]]},
               
               ButtonFunction:>(
@@ -1525,29 +1555,52 @@ mEXTyg==
                  Internal`WithLocalSettings[CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-035b46c9-e31c-4c3f-8e18-1b0d87f07f7c"}] = True, 
+                    "Button-6ef6d9e0-7345-47f0-b4b3-a872d219d04d"}] = True, 
                    Block[{$ContextPath = {"System`"}}, 
                     Needs[
                     StringJoin[EmsAssistant`Private`$AppName, "`"]]]; 
                    Replace[
-                    DialogInput[{EmsAssistant`Private`name}, 
+                    
+                    DialogInput[{
+                    EmsAssistant`Private`name, EmsAssistant`Private`tem}, 
                     Column[{"Provide a name for the site:", 
                     InputField[
                     Dynamic[EmsAssistant`Private`name], String, BoxID -> 
-                    "site-name"], 
+                    "site-name"], "Pick a template for the site:", 
+                    With[{EmsAssistant`Private`ops = Map[FileBaseName, 
+                    Select[DirectoryQ][
+                    FileNames["*", 
+                    PacletManager`PacletResource["Ems", "Templates"]]]]}, 
+                    EmsAssistant`Private`tem = 
+                    First[EmsAssistant`Private`ops]; RadioButtonBar[
+                    Dynamic[EmsAssistant`Private`tem], 
+                    EmsAssistant`Private`ops, 
+                    Appearance -> ("Horizontal" -> {Automatic, 2})]], 
                     Row[{
                     DefaultButton["OK", 
-                    DialogReturn[EmsAssistant`Private`name]], 
+                    
+                    DialogReturn[{
+                    EmsAssistant`Private`name, EmsAssistant`Private`tem}]], 
                     CancelButton[]}]}], NotebookDynamicExpression :> Refresh[
                     FrontEnd`MoveCursorToInputField[
-                    EvaluationNotebook[], "site-name"], None]], PatternTest[
+                    EvaluationNotebook[], "site-name"], None]], {
+                    PatternTest[
                     Pattern[EmsAssistant`Private`s, 
-                    Blank[String]], StringLength[#] > 0& ] :> (
-                    Ems`Ems["New", EmsAssistant`Private`s]; 
-                    EmsAssistant`Private`ListProjects[])], CurrentValue[
+                    Blank[String]], StringLength[
+                    StringTrim[#]] > 0& ], 
+                    Pattern[EmsAssistant`Private`t, 
+                    Blank[String]]} :> 
+                    With[{EmsAssistant`Private`new = 
+                    Symbol["Ems`Ems"][
+                    "New", EmsAssistant`Private`s, EmsAssistant`Private`t]}, 
+                    If[
+                    DirectoryQ[EmsAssistant`Private`new], 
+                    EmsAssistant`Private`$CurrentProject = 
+                    EmsAssistant`Private`new]; 
+                    EmsAssistant`Private`ListProjects[]]], CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-035b46c9-e31c-4c3f-8e18-1b0d87f07f7c"}] = False]; 
+                    "Button-6ef6d9e0-7345-47f0-b4b3-a872d219d04d"}] = False]; 
                  Null]; Null),
               Evaluator->Automatic,
               FrameMargins->{{5, 5}, {2, 0}},
@@ -1565,7 +1618,7 @@ mEXTyg==
                     Automatic -> True]], CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-035b46c9-e31c-4c3f-8e18-1b0d87f07f7c"}] = True], 
+                    "Button-6ef6d9e0-7345-47f0-b4b3-a872d219d04d"}] = True], 
                  FrontEndExecute[
                   FrontEnd`NotebookResumeScreenUpdates[
                    FrontEnd`EvaluationNotebook[]]]], PassEventsDown -> True, 
@@ -1609,7 +1662,7 @@ mEXTyg==
                   FrontEnd`CurrentValue[
                    FrontEnd`EvaluationNotebook[], {
                    TaggingRules, "UUIDButtons", "Active", 
-                    "Button-ff40b314-7a80-46db-8960-7553955d57f3"}, False], 
+                    "Button-ccfb569e-2e66-4415-9d76-2d85a65fe5bb"}, False], 
                   "Pressed", Automatic, Automatic]]},
               
               ButtonFunction:>(
@@ -1617,16 +1670,16 @@ mEXTyg==
                  Internal`WithLocalSettings[CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-ff40b314-7a80-46db-8960-7553955d57f3"}] = True, 
+                    "Button-ccfb569e-2e66-4415-9d76-2d85a65fe5bb"}] = True, 
                    Block[{$ContextPath = {"System`"}}, 
                     Needs[
                     StringJoin[EmsAssistant`Private`$AppName, "`"]]]; 
                    SystemOpen[
                     First[
-                    Ems`Ems["ThemePath"]]], CurrentValue[
+                    Symbol["Ems`Ems"]["ThemePath"]]], CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-ff40b314-7a80-46db-8960-7553955d57f3"}] = False]; 
+                    "Button-ccfb569e-2e66-4415-9d76-2d85a65fe5bb"}] = False]; 
                  Null]; Null),
               Evaluator->Automatic,
               FrameMargins->{{5, 5}, {2, 0}},
@@ -1644,7 +1697,7 @@ mEXTyg==
                     Automatic -> True]], CurrentValue[
                     FrontEnd`EvaluationNotebook[], {
                     TaggingRules, "UUIDButtons", "Active", 
-                    "Button-ff40b314-7a80-46db-8960-7553955d57f3"}] = True], 
+                    "Button-ccfb569e-2e66-4415-9d76-2d85a65fe5bb"}] = True], 
                  FrontEndExecute[
                   FrontEnd`NotebookResumeScreenUpdates[
                    FrontEnd`EvaluationNotebook[]]]], PassEventsDown -> True, 
@@ -1666,36 +1719,14 @@ mEXTyg==
      GridBoxSpacings->{"Columns" -> {{Automatic}}, "Rows" -> {{0}}}],
     "Column"],
    ImageSize->{Automatic, 
-     Scaled[1]}], 
+     Scaled[1]}], Get["Ems`"]; 
   If[DownValues[EmsAssistant`Private`GetPagesDirectory] == {}, 
     DownValues[EmsAssistant`Private`GetPagesDirectory] = {}]; 
   EmsAssistant`Private`GetPagesDirectory[]; 
-  If[DownValues[EmsAssistant`Private`GetAppName] == {}, 
-    DownValues[EmsAssistant`Private`GetAppName] = {HoldPattern[
-        EmsAssistant`Private`GetAppName[]] :> (EmsAssistant`Private`$AppName = 
-       With[{EmsAssistant`Private`dir = NotebookDirectory[]}, 
-         Replace[
-          FileNameSplit[EmsAssistant`Private`dir], {{
-             BlankNullSequence[], 
-             Pattern[EmsAssistant`Private`d, 
-              Blank[]], "FrontEnd", "Palettes", 
-             BlankNullSequence[]} :> First[
-             StringSplit[EmsAssistant`Private`d, "-", 2]], {
-             BlankNullSequence[], 
-             Pattern[EmsAssistant`Private`d, 
-              Blank[]], "Private", "Misc", 
-             BlankNullSequence[]} :> First[
-             StringSplit[EmsAssistant`Private`d, "-", 2]], 
-           Blank[] :> (Get["BTools`All`"]; 
-            BTools`Paclets`AppBuilder`AppFromFile[Automatic])}]])}]; If[
-    Not[
-     StringQ[EmsAssistant`Private`$AppName]], 
-    EmsAssistant`Private`GetAppName[]]; Needs[
-    StringJoin[EmsAssistant`Private`$AppName, "`"]]; 
   If[DownValues[EmsAssistant`Private`ListProjects] == {}, 
     DownValues[EmsAssistant`Private`ListProjects] = {HoldPattern[
         EmsAssistant`Private`ListProjects[]] :> (
-       EmsAssistant`Private`$ProjectList = Ems`Ems["ListSites"])}]; 
+       EmsAssistant`Private`$ProjectList = Symbol["Ems`Ems"]["ListSites"])}]; 
   EmsAssistant`Private`ListProjects[]; If[
     Not[
      StringQ[EmsAssistant`Private`$CurrentProject]], 
@@ -1704,12 +1735,14 @@ mEXTyg==
   If[DownValues[EmsAssistant`Private`ListPosts] == {}, 
     DownValues[EmsAssistant`Private`ListPosts] = {HoldPattern[
         EmsAssistant`Private`ListPosts[]] :> (EmsAssistant`Private`$PostList = 
-       Ems`Ems["ListPosts", EmsAssistant`Private`$CurrentProject])}]; 
+       Symbol["Ems`Ems"][
+        "ListPosts", EmsAssistant`Private`$CurrentProject])}]; 
   EmsAssistant`Private`ListPosts[]; 
   If[DownValues[EmsAssistant`Private`ListPages] == {}, 
     DownValues[EmsAssistant`Private`ListPages] = {HoldPattern[
         EmsAssistant`Private`ListPages[]] :> (EmsAssistant`Private`$PageList = 
-       Ems`Ems["ListPages", EmsAssistant`Private`$CurrentProject])}]; 
+       Symbol["Ems`Ems"][
+        "ListPages", EmsAssistant`Private`$CurrentProject])}]; 
   EmsAssistant`Private`ListPages[]; 
   DownValues[EmsAssistant`Private`whichPacF] = {HoldPattern[
        EmsAssistant`Private`whichPacF[
@@ -1767,6 +1800,11 @@ mEXTyg==
  CellHorizontalScrolling->True,
  PageBreakAbove->True,
  PageBreakWithin->False,
+ CellChangeTimes->{{3.743970369655314*^9, 3.743970370998877*^9}, 
+   3.7439707491516867`*^9, {3.74397141490273*^9, 3.743971432306725*^9}, {
+   3.743978965637454*^9, 3.743978967726342*^9}, {3.7439792154195023`*^9, 
+   3.743979219521344*^9}, 3.74398050333643*^9, {3.743981272817293*^9, 
+   3.743981278188795*^9}, {3.743981336556048*^9, 3.743981340339211*^9}},
  ShowAutoStyles->True,
  LineSpacing->{1.25, 0},
  AutoItalicWords->{},
@@ -1774,11 +1812,11 @@ mEXTyg==
  ShowStringCharacters->False,
  FontFamily:>CurrentValue["PanelFontFamily"],
  FontSize:>CurrentValue[
-  "PanelFontSize"],ExpressionUUID->"924e4eb8-9891-4578-9b49-2cb421ed946a"]
+  "PanelFontSize"],ExpressionUUID->"3b01081b-bc30-4836-a2d9-c77f6ccd373f"]
 },
 WindowSize->{All, 
   Scaled[1]},
-WindowMargins->{{Automatic, 0}, {0, 0}},
+WindowMargins->{{Automatic, 0}, {Automatic, 0}},
 WindowElements->{"StatusArea"},
 WindowTitle->"Ems Assistant",
 TaggingRules->{
@@ -1796,7 +1834,59 @@ TaggingRules->{
       "Button-c1899cc3-7043-4ecd-818e-5cc5505fb1e3" -> False, 
       "Button-3ecf47ac-d4eb-4385-acfd-e9bf3cb5b47f" -> False, 
       "Button-035b46c9-e31c-4c3f-8e18-1b0d87f07f7c" -> False, 
-      "Button-ff40b314-7a80-46db-8960-7553955d57f3" -> False}}},
+      "Button-ff40b314-7a80-46db-8960-7553955d57f3" -> False, 
+      "Button-54333829-668e-487c-a9f5-ba4d333f85e2" -> False, 
+      "Button-eb414dc3-333d-4ac6-b07b-cdc4d514d0b3" -> False, 
+      "Button-13fdee4c-e35c-4a41-b226-8a118bbdee83" -> False, 
+      "Button-3bab3738-2e26-4cde-bbe5-ccd0f857ffa2" -> False, 
+      "Button-151feb66-c03e-441d-bb49-ceb9aee89aed" -> False, 
+      "Button-76cab399-ad8c-42d4-90be-3fd61704970d" -> False, 
+      "Button-2518cbb5-4bb6-4b0e-8b2e-c690746d3c28" -> False, 
+      "Button-0ca4a452-3592-4012-aca3-c4bd12bed19b" -> False, 
+      "Button-65924bf9-22b8-4093-b05b-0a4ab09e5b55" -> False, 
+      "Button-693603eb-9496-4afd-8ada-b6177419ad40" -> False, 
+      "Button-4ab89085-23d5-421c-ac84-6a3d22d69f90" -> False, 
+      "Button-cb8f9cb2-9736-49fd-ab9a-31111e8e5339" -> False, 
+      "Button-fd375e97-01c7-4a24-84f8-a8a5266fd934" -> False, 
+      "Button-4db3ebba-42ba-4ded-984e-a641fc3fd5a4" -> False, 
+      "Button-ea673d5a-1136-42c4-8a52-955bd7aef5df" -> False, 
+      "Button-8d44a8bd-e592-472f-8e59-d1a317f36492" -> False, 
+      "Button-efb5bff4-e7c0-49b9-97d4-53f337905b33" -> False, 
+      "Button-df0bb333-f597-4a18-a547-ba886a221814" -> False, 
+      "Button-97bbfc83-ab0a-480d-8d0c-a35aee894b41" -> False, 
+      "Button-04722f33-cc38-4b99-be7a-9d9a595f1140" -> False, 
+      "Button-3b4a3329-84a0-4e92-842c-f7039cf07076" -> False, 
+      "Button-70a66f70-f23a-4176-88db-902144c850ff" -> False, 
+      "Button-141516a0-5ef1-4534-88a1-525a49175d19" -> False, 
+      "Button-947a5ca8-74bf-41cf-9d77-18b1f38c5583" -> False, 
+      "Button-83e7cdec-3bdf-4db9-8ba6-881aceadeb30" -> False, 
+      "Button-eee40b76-be88-4858-b604-6ae38df090e7" -> False, 
+      "Button-ca09afbd-4f64-41ea-9fd1-ebf44806bc05" -> False, 
+      "Button-cb2529c5-fa2f-4584-83a6-63ced51ecbc0" -> False, 
+      "Button-bc4be846-08d5-44da-b5b4-5ca6b2ec8a56" -> False, 
+      "Button-cb5ab75b-a34b-463d-8494-514e7b186d5f" -> False, 
+      "Button-065936b7-b77d-4ab7-a28b-189e98a98fda" -> False, 
+      "Button-d9b84601-23fe-481a-aafd-f63ba6d602e6" -> False, 
+      "Button-cf3c9312-ab55-4ead-936e-5f2d29b2de74" -> False, 
+      "Button-74312a03-2c80-43d1-bd1b-eed1115e310a" -> False, 
+      "Button-ea02f28b-d728-420a-93ee-f8fb5f44ef6b" -> False, 
+      "Button-44cea2d6-9cfd-4a43-b177-6876dfea0787" -> False, 
+      "Button-72a61fcd-7216-47bc-9e45-c0cd857f0a44" -> False, 
+      "Button-5e5322fd-b702-414b-90ae-d82446395e8f" -> False, 
+      "Button-6b8dc258-9588-4c3d-bd19-c864f0c2df1c" -> False, 
+      "Button-4d1fdc4f-10fd-4884-aa97-b9d07c8b799f" -> False, 
+      "Button-a8a5afaa-38fe-4ea0-980e-472bda89b559" -> False, 
+      "Button-137f01b0-282a-47e7-ac94-676177254af9" -> False, 
+      "Button-f9279453-d6e2-4b9a-aa83-18dd2ec53f50" -> False, 
+      "Button-af4fa3a3-c9a7-467e-84e2-b15ca07eed44" -> False, 
+      "Button-bb33c220-349d-420d-9b5e-91038e21c81b" -> False, 
+      "Button-91d69bb1-d253-450d-bb76-922c2187f163" -> False, 
+      "Button-c6e02e7f-b370-4d21-af6a-83c845c14e76" -> False, 
+      "Button-9b31a36a-1cb0-4c13-86dc-2937d67c13d3" -> False, 
+      "Button-024b0707-d0be-4035-92e4-8d9b5a0a3b28" -> False, 
+      "Button-2acf0db0-35a6-4d51-8561-a2a48cee944d" -> False, 
+      "Button-6ef6d9e0-7345-47f0-b4b3-a872d219d04d" -> False, 
+      "Button-ccfb569e-2e66-4415-9d76-2d85a65fe5bb" -> False}}},
 FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
 2018)",
 StyleDefinitions->"Palette.nb"
@@ -1812,12 +1902,10 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[586, 21, 86945, 1755, 868, InheritFromParent,ExpressionUUID->"924e4eb8-9891-4578-9b49-2cb421ed946a",
+Cell[586, 21, 88807, 1793, 868, InheritFromParent,ExpressionUUID->"3b01081b-bc30-4836-a2d9-c77f6ccd373f",
  PageBreakAbove->True,
  PageBreakWithin->False]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
