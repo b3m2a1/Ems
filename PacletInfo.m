@@ -1,6 +1,6 @@
 Paclet[
   Name -> "Ems",
-  Version -> "1.0.3",
+  Version -> "1.0.4",
   Extensions -> {
     	{
      		"Kernel",
@@ -48,6 +48,10 @@ Paclet[
         				"Templates/blog/content"
         			},
        			{
+        				"docs",
+        				"Templates/docs"
+        			},
+       			{
         				"portfolio",
         				"Templates/portfolio"
         			},
@@ -66,6 +70,10 @@ Paclet[
        			{
         				"templates",
         				"Themes/bootstrap-blog/templates"
+        			},
+       			{
+        				"bootstrap-docs",
+        				"Themes/bootstrap-docs"
         			},
        			{
         				"bootstrap-portfolio",

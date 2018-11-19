@@ -1,0 +1,16 @@
+<div class="function-list">
+  <h1>Functions</h1>
+
+  <wolfram:sequence
+    values='#SelectObjects["function"]'
+    slot="Article"
+    delimiters="<br/>"
+    >
+    <article>
+      <h2><a href='`SiteURL`/<*#Article["URL"]*>'><*#Article["Title"]*></a></h2>
+      <span class="summary">
+        <*#Article["Summary"]*>
+      </div>
+    </article>
+  </wolfram:sequence>
+</div>
