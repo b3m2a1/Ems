@@ -69,6 +69,28 @@
     </wolfram:slot>
   </wolfram:get>
 
+  <wolfram:get path="include/lib/templates/varTrueBlock.html">
+    <wolfram:slot id="var">UseJQuery</wolfram:slot>
+    <wolfram:slot id="UseJQuery">`UseJQuery`</wolfram:slot>
+    <wolfram:slot id="if">
+      <wolfram:get path="include/load_jQuery.html"></wolfram:get>
+    </wolfram:slot>
+  </wolfram:get>
+  <wolfram:get path="include/lib/templates/varTrueBlock.html">
+    <wolfram:slot id="var">CopyableInput</wolfram:slot>
+    <wolfram:slot id="CopyableInput">`CopyableInput`</wolfram:slot>
+    <wolfram:slot id="if">
+      <wolfram:get path="include/lib/templates/varNotTrueBlock.html">
+        <wolfram:slot id="var">UseJQuery</wolfram:slot>
+        <wolfram:slot id="UseJQuery">`UseJQuery`</wolfram:slot>
+        <wolfram:slot id="if">
+          <wolfram:get path="include/load_jQuery.html"></wolfram:get>
+        </wolfram:slot>
+      </wolfram:get>
+      <wolfram:get path="include/copyable_input.html"></wolfram:get>
+    </wolfram:slot>
+  </wolfram:get>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>

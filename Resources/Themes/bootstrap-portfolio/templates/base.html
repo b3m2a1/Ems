@@ -71,6 +71,28 @@
     </wolfram:slot>
   </wolfram:get>
 
+  <wolfram:get path="include/lib/templates/varTrueBlock.html">
+    <wolfram:slot id="var">UseJQuery</wolfram:slot>
+    <wolfram:slot id="UseJQuery">`UseJQuery`</wolfram:slot>
+    <wolfram:slot id="if">
+      <wolfram:get path="include/load_jQuery.html"></wolfram:get>
+    </wolfram:slot>
+  </wolfram:get>
+  <wolfram:get path="include/lib/templates/varTrueBlock.html">
+    <wolfram:slot id="var">CopyableInput</wolfram:slot>
+    <wolfram:slot id="CopyableInput">`CopyableInput`</wolfram:slot>
+    <wolfram:slot id="if">
+      <wolfram:get path="include/lib/templates/varNotTrueBlock.html">
+        <wolfram:slot id="var">UseJQuery</wolfram:slot>
+        <wolfram:slot id="UseJQuery">`UseJQuery`</wolfram:slot>
+        <wolfram:slot id="if">
+          <wolfram:get path="include/load_jQuery.html"></wolfram:get>
+        </wolfram:slot>
+      </wolfram:get>
+      <wolfram:get path="include/copyable_input.html"></wolfram:get>
+    </wolfram:slot>
+  </wolfram:get>
+
   <wolfram:slot id="head"></wolfram:slot>
 
 </head>
