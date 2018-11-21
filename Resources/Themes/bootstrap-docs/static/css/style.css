@@ -1,4 +1,45 @@
 /*
+broad tweaks
+*/
+
+.page-content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+h1, h2, h3 {
+  margin-top: 0px;
+}
+
+.about-block {
+  border-top: solid 1px rgb(240, 240, 240);
+  border-bottom: solid 1px rgb(240, 240, 240);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 50px 0px;
+  min-width: 550px;
+}
+
+.about-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 470px;
+}
+
+.function-list {
+  clear:left;
+}
+
+.guide-list {
+  clear:left;
+}
+
+.tutorial-list {
+  clear:left;
+}
+
+/*
  mma styles
 */
 

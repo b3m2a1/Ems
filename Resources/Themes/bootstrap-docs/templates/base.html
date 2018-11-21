@@ -71,28 +71,6 @@
     </wolfram:slot>
   </wolfram:get>
 
-  <wolfram:get path="include/lib/templates/varTrueBlock.html">
-    <wolfram:slot id="var">UseJQuery</wolfram:slot>
-    <wolfram:slot id="UseJQuery">`UseJQuery`</wolfram:slot>
-    <wolfram:slot id="if">
-      <wolfram:get path="include/load_jQuery.html"></wolfram:get>
-    </wolfram:slot>
-  </wolfram:get>
-  <wolfram:get path="include/lib/templates/varTrueBlock.html">
-    <wolfram:slot id="var">CopyableInput</wolfram:slot>
-    <wolfram:slot id="CopyableInput">`CopyableInput`</wolfram:slot>
-    <wolfram:slot id="if">
-      <wolfram:get path="include/lib/templates/varNotTrueBlock.html">
-        <wolfram:slot id="var">UseJQuery</wolfram:slot>
-        <wolfram:slot id="UseJQuery">`UseJQuery`</wolfram:slot>
-        <wolfram:slot id="if">
-          <wolfram:get path="include/load_jQuery.html"></wolfram:get>
-        </wolfram:slot>
-      </wolfram:get>
-      <wolfram:get path="include/copyable_input.html"></wolfram:get>
-    </wolfram:slot>
-  </wolfram:get>
-
   <wolfram:slot id="head"></wolfram:slot>
 
 </head>
@@ -211,8 +189,8 @@ Which[
   <div class="main-content">
     <div class="row">
       <div class='<*$$["ContentClass"]*>'>
-        <div class="breadcrumbs">`Breadcrumbs`</div>
-        <div class="page-header">`PageHeader`</div>
+        <!-- <div class="breadcrumbs">`Breadcrumbs`</div>
+        <div class="page-header">`PageHeader`</div> -->
         <div class="page-content">`PrimaryContent`</div>
       </div>
       <wolfram:if test='TrueQ[#IncludeSidebar]'>
@@ -247,6 +225,14 @@ Which[
 </wolfram:if>
 
 <wolfram:get path="include/analytics.html"/>
+
+<wolfram:get path="include/lib/templates/varTrueBlock.html">
+  <wolfram:slot id="var">CopyableInput</wolfram:slot>
+  <wolfram:slot id="CopyableInput">`CopyableInput`</wolfram:slot>
+  <wolfram:slot id="if">
+    <wolfram:get path="include/copyable_input.html"></wolfram:get>
+  </wolfram:slot>
+</wolfram:get>
 
 `Scripts`
 
