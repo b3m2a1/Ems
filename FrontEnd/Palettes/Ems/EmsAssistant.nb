@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     96720,       1953]
-NotebookOptionsPosition[     90497,       1840]
-NotebookOutlinePosition[     96706,       1953]
-CellTagsIndexPosition[     96663,       1950]
+NotebookDataLength[     96718,       1953]
+NotebookOptionsPosition[     90495,       1840]
+NotebookOutlinePosition[     96704,       1953]
+CellTagsIndexPosition[     96661,       1950]
 WindowTitle->Ems Assistant
 WindowFrame->Palette*)
 
@@ -216,7 +216,7 @@ OAAA5rpJeQ==
                   EmsAssistant`Private`$ProjectList -> 
                    Map[FileBaseName, EmsAssistant`Private`$ProjectList]], 
                   True]}], StandardForm],
-             ImageSizeCache->{200., {9., 20.}},
+             ImageSizeCache->{28., {6., 8.}},
              TrackedSymbols:>{EmsAssistant`Private`$ProjectList}]}
           },
           DefaultBaseStyle->"Column",
@@ -1952,7 +1952,7 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[586, 21, 89907, 1817, 868, InheritFromParent,ExpressionUUID->"9374c4cd-d3dd-4896-9949-b2b97e351523",
+Cell[586, 21, 89905, 1817, 868, InheritFromParent,ExpressionUUID->"9374c4cd-d3dd-4896-9949-b2b97e351523",
  PageBreakAbove->True,
  PageBreakWithin->False]
 }

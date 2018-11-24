@@ -36,10 +36,12 @@
         	    {"function", "tutorial", "guide"}
         	    ],
         	"GenerateAggregations"->False,
-  		  "GenerateIndex"->True
-  			(*"SearchPageOptions"->
-  				{
-  					"Options"->{"WholeWords"->False}
-  					}*)(* options for tipue search *)
+  		  "GenerateIndex"->True,
+  		  "GenerateSearchPage"->True,
+    		"SearchPageOptions"->
+				{
+				  "SearchedPages"->{"ref", "tutorial", "guide"},
+				  "Options"->{"WholeWords"->False}
+				  }(* options for tipue search *)
   			}
   	}

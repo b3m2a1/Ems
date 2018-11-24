@@ -1,3 +1,5 @@
+(* ::Package:: *)
+
 (* ::Title:: *)
 (*Ems`*)
 
@@ -17,7 +19,7 @@ ClearAll[Ems];
 Ems::usage="Ems is a manager head for the Ems package";
 
 
-(* ::Subsubsection::Closed:: *)
+(* ::Subsubsection:: *)
 (*$ContextPath*)
 
 
@@ -228,6 +230,8 @@ $AllowPackageAutocompletions=
 
 
 End[]
+
+
 (* ::Subsection:: *)
 (*Paths*)
 
@@ -285,6 +289,8 @@ PackagePathSymbol~SetAttributes~HoldRest;
 
 
 End[]
+
+
 (* ::Subsection:: *)
 (*Loading*)
 
@@ -359,7 +365,7 @@ PackageFileContext[f_String?FileExistsQ]:=
   PackageFileContext[DirectoryName[f]];
 
 
-(* ::Subsubsection::Closed:: *)
+(* ::Subsubsection:: *)
 (*PackageExecute*)
 
 
@@ -575,7 +581,7 @@ PackageAppLoad[]:=
 PackageAppLoad~SetAttributes~Listable;
 
 
-(* ::Subsubsection::Closed:: *)
+(* ::Subsubsection:: *)
 (*PackageAppGet*)
 
 
@@ -758,6 +764,8 @@ PackageRecontext[
 
 
 End[]
+
+
 (* ::Subsection:: *)
 (*Dependencies*)
 
@@ -1079,6 +1087,8 @@ PackageUpdatePacletDependency[
 
 
 End[]
+
+
 (* ::Subsection:: *)
 (*Exceptions*)
 
@@ -1384,6 +1394,8 @@ PackageExceptionBlock~SetAttributes~HoldFirst;
 
 
 End[]
+
+
 (* ::Subsection:: *)
 (*Autocompletion*)
 
@@ -1604,6 +1616,8 @@ PackageSetAutocompletionData[]:=
 
 
 End[]
+
+
 (* ::Subsection:: *)
 (*FrontEnd*)
 
