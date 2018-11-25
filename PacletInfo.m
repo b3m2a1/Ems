@@ -1,6 +1,6 @@
 Paclet[
   Name -> "Ems",
-  Version -> "1.0.5",
+  Version -> "1.0.6",
   Extensions -> {
     	{
      		"Kernel",
@@ -22,10 +22,6 @@ Paclet[
        			{
         				"banner_tall",
         				"Icons/banner_tall.png"
-        			},
-       			{
-        				"EmsIcon",
-        				"Icons/EmsIcon.png"
         			},
        			{
         				"favicon-16x16",
