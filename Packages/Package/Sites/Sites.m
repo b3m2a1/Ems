@@ -147,7 +147,7 @@ ListSites[patt:_?StringPattern`StringPatternQ:"*"]:=
       res
       },
     res=WebSites[patt];
-    res/;ListQ[res]
+    If[!ListQ@res, {}, res]
     ]
 
 

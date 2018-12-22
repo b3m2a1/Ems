@@ -23,7 +23,7 @@
   	(*"SidebarClass"\[Rule]"panel",*)
   	(*"NavbarInvert"\[Rule]True,*)
   	"SummaryLength"->{1, "Lines"},
-  	"UseMathJAX"->True,
+  	"ContentFooter"->"",
   	"DeployOptions"->
   		{
   			(*CloudConnect->"DeploymentsAccount"*)(* connect before deployment*)
@@ -31,7 +31,6 @@
   	"BuildOptions"->
   		{
   		  "ContentDirectories"->{"ref", "tutorial", "guide", "pages"},
-  		  "CopyContent"->Except["ref"|"tutorial"|"guide"|"pages"],
   	      "ContentDirectoryTemplates"->
         	  AssociationThread[
         	    {"ref", "tutorial", "guide"},

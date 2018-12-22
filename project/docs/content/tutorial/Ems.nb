@@ -1,0 +1,163 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      5549,        155]
+NotebookOptionsPosition[      3218,        101]
+NotebookOutlinePosition[      4249,        129]
+CellTagsIndexPosition[      4206,        126]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{"Markdown", " ", "metadata"}], " ", "*)"}], "\[IndentingNewLine]", 
+  
+  RowBox[{"<|", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"\"\<Date\>\"", "\[RuleDelayed]", "Now"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<ExportOptions\>\"", "\[Rule]", 
+     RowBox[{"{", "\[IndentingNewLine]", 
+      RowBox[{"(*", 
+       RowBox[{"\"\<UseImageInput\>\"", "\[Rule]", "True"}], "*)"}], 
+      "\[IndentingNewLine]", "}"}]}]}], "\[IndentingNewLine]", 
+   "|>"}]}]], "Metadata",ExpressionUUID->"04e60d0f-017c-43bf-a5f1-\
+80e8a1e0bac5"],
+
+Cell["Tutorial", "TitleBar",ExpressionUUID->"aa8e54c9-2120-4f69-93db-4b24f0184c5a"],
+
+Cell[CellGroupData[{
+
+Cell["Ems", "Section", "TutorialName",ExpressionUUID->"6d326f46-d0d4-46f8-a1f6-55e99b66fb85"],
+
+Cell["Tutorial text...", "Text",ExpressionUUID->"c4b3769b-22a5-483a-a7b0-06eb7a2dbfb2"],
+
+Cell["", "PageBreak",
+ PageBreakAbove->False,
+ PageBreakBelow->False,ExpressionUUID->"995585c2-a6fe-4251-884a-7fdec042ea8a"],
+
+Cell[CellGroupData[{
+
+Cell["Related Guides", "Subsection", "Related",
+ CellID->1044184471,ExpressionUUID->"9e51642c-6e0a-49db-9d45-1dedbbc6e46d"],
+
+Cell[TextData[ButtonBox["Ems",
+ BaseStyle->"Link",
+ ButtonData->"paclet:Ems/guide/Ems"]], "Item",
+ CellID->372040813,ExpressionUUID->"cdc703be-8cc8-4347-b596-c0aed7836b42"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Related Links", "Subsection", "RelatedLinks",
+ CellID->1376548462,ExpressionUUID->"8f1fa819-e17e-4b38-84e8-900717ac8d45"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[ButtonBox["SimpleDocs",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://github.com/b3m2a1/SimpleDocs"], None},
+ ButtonNote->"SimpleDocs"]], "Item",
+ CellID->808671703,ExpressionUUID->"340658ac-7e2e-4a9d-a520-009c9fcd7b44"],
+
+Cell[TextData[ButtonBox["BTools",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://github.com/b3m2a1/mathematica-BTools"], None},
+ ButtonNote->"https://github.com/b3m2a1/mathematica-BTools"]], "Item",
+ CellID->764470499,ExpressionUUID->"1d6e1b07-4ac5-4855-9db7-3f69ef61e7d1"],
+
+Cell[TextData[ButtonBox["Ems",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://github.com/b3m2a1/Ems"], None},
+ ButtonNote->"https://github.com/b3m2a1/Ems"]], "Item",
+ CellID->1318189595,ExpressionUUID->"b41a3bc9-9512-4e37-8dc8-6ce557bd1bb2"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[TextData[{
+ "Made with ",
+ ButtonBox["SimpleDocs",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://github.com/b3m2a1/SimpleDocs"], None},
+  ButtonNote->"https://github.com/b3m2a1/SimpleDocs"]
+}], "Text", "Footer",
+ CellID->2067337585,ExpressionUUID->"874c380c-2052-4574-b327-974479bd5231"]
+}, Open  ]]
+},
+ScreenStyleEnvironment->"Editing",
+WindowSize->{808, 755},
+WindowMargins->{{Automatic, 158}, {Automatic, 50}},
+TaggingRules->{
+ "Metadata" -> {
+   "built" -> "{2018, 11, 27, 13, 50, 16.548203}", 
+    "history" -> {"11.3", "", ""}, "context" -> "Ems`", "keywords" -> {}, 
+    "specialkeywords" -> {}, "tutorialcollectionlinks" -> {}, "index" -> True,
+     "label" -> "Ems", "language" -> "en", "paclet" -> "Mathematica", 
+    "status" -> "None", "summary" -> "", "synonyms" -> {}, "tabletags" -> {}, 
+    "title" -> "Ems", "titlemodifier" -> "", "windowtitle" -> "Ems", "type" -> 
+    "Tutorial", "uri" -> "Ems/tutorial/Ems"}, "ColorType" -> "TutorialColor", 
+  "Paclet" -> "Ems"},
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"SimpleDocs"}, "SimpleDocs.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 597, 15, 159, "Metadata",ExpressionUUID->"04e60d0f-017c-43bf-a5f1-80e8a1e0bac5"],
+Cell[1158, 37, 83, 0, 43, "TitleBar",ExpressionUUID->"aa8e54c9-2120-4f69-93db-4b24f0184c5a"],
+Cell[CellGroupData[{
+Cell[1266, 41, 93, 0, 54, "Section",ExpressionUUID->"6d326f46-d0d4-46f8-a1f6-55e99b66fb85"],
+Cell[1362, 43, 87, 0, 35, "Text",ExpressionUUID->"c4b3769b-22a5-483a-a7b0-06eb7a2dbfb2"],
+Cell[1452, 45, 124, 2, 2, "PageBreak",ExpressionUUID->"995585c2-a6fe-4251-884a-7fdec042ea8a",
+ PageBreakAbove->False,
+ PageBreakBelow->False],
+Cell[CellGroupData[{
+Cell[1601, 51, 123, 1, 34, "Subsection",ExpressionUUID->"9e51642c-6e0a-49db-9d45-1dedbbc6e46d",
+ CellID->1044184471],
+Cell[1727, 54, 172, 3, 32, "Item",ExpressionUUID->"cdc703be-8cc8-4347-b596-c0aed7836b42",
+ CellID->372040813]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1936, 62, 127, 1, 34, "Subsection",ExpressionUUID->"8f1fa819-e17e-4b38-84e8-900717ac8d45",
+ CellID->1376548462],
+Cell[CellGroupData[{
+Cell[2088, 67, 244, 5, 32, "Item",ExpressionUUID->"340658ac-7e2e-4a9d-a520-009c9fcd7b44",
+ CellID->808671703],
+Cell[2335, 74, 282, 5, 32, "Item",ExpressionUUID->"1d6e1b07-4ac5-4855-9db7-3f69ef61e7d1",
+ CellID->764470499],
+Cell[2620, 81, 250, 5, 32, "Item",ExpressionUUID->"b41a3bc9-9512-4e37-8dc8-6ce557bd1bb2",
+ CellID->1318189595]
+}, Open  ]]
+}, Open  ]],
+Cell[2897, 90, 305, 8, 62, "Text",ExpressionUUID->"874c380c-2052-4574-b327-974479bd5231",
+ CellID->2067337585]
+}, Open  ]]
+}
+]
+*)
+

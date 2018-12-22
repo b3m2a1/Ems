@@ -239,8 +239,11 @@ Cell[BoxData[{
     RowBox[{
      RowBox[{"res", "=", 
       RowBox[{"WebSites", "[", "patt", "]"}]}], ";", "\n", "\t\t", 
-     RowBox[{"res", "/;", 
-      RowBox[{"ListQ", "[", "res", "]"}]}]}]}], "\n", "\t\t", 
+     RowBox[{"If", "[", 
+      RowBox[{
+       RowBox[{"!", 
+        RowBox[{"ListQ", "@", "res"}]}], ",", " ", 
+       RowBox[{"{", "}"}], ",", " ", "res"}], "]"}]}]}], "\n", "\t\t", 
    "]"}]}]}], \
 "CodeInput",ExpressionUUID->"f5b8e9b2-85e1-49c6-8909-a1dc9177126c"]
 }, Closed]],
@@ -443,7 +446,7 @@ Cell["", "SectionSeparator",ExpressionUUID->"7ae8f3ea-0d98-4fe8-b7be-\
 8fc9c5b0f030"]
 },
 WindowSize->{808, 755},
-WindowMargins->{{Automatic, 266}, {Automatic, 0}},
+WindowMargins->{{120, Automatic}, {23, Automatic}},
 FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
 2018)",
 StyleDefinitions->FrontEnd`FileName[{"BTools"}, "CodePackage.nb", 
