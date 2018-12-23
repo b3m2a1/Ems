@@ -46,19 +46,19 @@ Here are a few screenshots of example sites that were built with Ems.
 
 ## Blog
 
-![readme-1662041931382429234](img/readme-1662041931382429234.png)
+![readme-1662041931382429234](project/img/readme-1662041931382429234.png)
 
 <a id="portfolio" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ## Portfolio
 
-![readme-649061900144457109](img/readme-649061900144457109.png)
+![readme-649061900144457109](project/img/readme-649061900144457109.png)
 
 <a id="singlepagescroll" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ## Single-Page Scroll
 
-![readme-4848706735533894430](img/readme-4848706735533894430.png)
+![readme-4848706735533894430](project/img/readme-4848706735533894430.png)
 
 Most themes are based on  [Bootstrap](https://getbootstrap.com/) and are very customizable
 
