@@ -1,4 +1,4 @@
-<a id="ems" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+<a id="ems" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 # Ems
 
@@ -8,7 +8,7 @@ Ems is a website builder initially developed as a Mathematica port of the pelica
 
 ---
 
-<a id="installation" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+<a id="installation" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 # Installation
 
@@ -36,29 +36,29 @@ Alternately you can download this repo as a ZIP file and put extract it in  ```$
 
 ---
 
-<a id="screenshots" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+<a id="screenshots" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 # Screenshots
 
 Here are a few screenshots of example sites that were built with Ems.
 
-<a id="blog" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+<a id="blog" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ## Blog
 
-![readme-1662041931382429234](project/img/readme-1662041931382429234.png)
+![readme-1662041931382429234](img/readme-1662041931382429234.png)
 
-<a id="portfolio" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+<a id="portfolio" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ## Portfolio
 
-![readme-649061900144457109](project/img/readme-649061900144457109.png)
+![readme-649061900144457109](img/readme-649061900144457109.png)
 
-<a id="singlepage-scroll" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+<a id="singlepagescroll" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ## Single-Page Scroll
 
-![readme-4848706735533894430](project/img/readme-4848706735533894430.png)
+![readme-4848706735533894430](img/readme-4848706735533894430.png)
 
 Most themes are based on  [Bootstrap](https://getbootstrap.com/) and are very customizable
 
