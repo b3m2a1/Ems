@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      5549,        155]
+NotebookDataLength[      5637,        157]
 NotebookOptionsPosition[      3218,        101]
-NotebookOutlinePosition[      4249,        129]
-CellTagsIndexPosition[      4206,        126]
+NotebookOutlinePosition[      4337,        131]
+CellTagsIndexPosition[      4294,        128]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -101,7 +101,7 @@ Cell[TextData[{
 },
 ScreenStyleEnvironment->"Editing",
 WindowSize->{808, 755},
-WindowMargins->{{Automatic, 158}, {Automatic, 50}},
+WindowMargins->{{120, Automatic}, {Automatic, 48}},
 TaggingRules->{
  "Metadata" -> {
    "built" -> "{2018, 11, 27, 13, 50, 16.548203}", 
@@ -111,7 +111,9 @@ TaggingRules->{
     "status" -> "None", "summary" -> "", "synonyms" -> {}, "tabletags" -> {}, 
     "title" -> "Ems", "titlemodifier" -> "", "windowtitle" -> "Ems", "type" -> 
     "Tutorial", "uri" -> "Ems/tutorial/Ems"}, "ColorType" -> "TutorialColor", 
-  "Paclet" -> "Ems"},
+  "Paclet" -> "Ems", 
+  "SimpleDocs" -> {
+   "MarkdownAutosave" -> False, "DocumentationAutosave" -> False}},
 FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
 2018)",
 StyleDefinitions->FrontEnd`FileName[{"SimpleDocs"}, "SimpleDocs.nb", 
@@ -128,7 +130,7 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 597, 15, 159, "Metadata",ExpressionUUID->"04e60d0f-017c-43bf-a5f1-80e8a1e0bac5"],
+Cell[558, 20, 597, 15, 179, "Metadata",ExpressionUUID->"04e60d0f-017c-43bf-a5f1-80e8a1e0bac5"],
 Cell[1158, 37, 83, 0, 43, "TitleBar",ExpressionUUID->"aa8e54c9-2120-4f69-93db-4b24f0184c5a"],
 Cell[CellGroupData[{
 Cell[1266, 41, 93, 0, 54, "Section",ExpressionUUID->"6d326f46-d0d4-46f8-a1f6-55e99b66fb85"],
